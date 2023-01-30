@@ -1,0 +1,13 @@
+name: test-env
+channels: 
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - pip
+  - pandas
+  - yq
+  - pip:
+    - ib_insync
+    - TA-Lib
+    - pyyaml
+

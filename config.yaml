@@ -1,0 +1,3 @@
+cwd: '/Users/tomcheckiewics/git/DevAlgoTrade'
+# port:4002 #TWS Gateway
+port: 4667 #TWS App
