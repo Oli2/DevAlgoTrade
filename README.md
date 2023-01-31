@@ -9,7 +9,7 @@ Once you have cloned the repository to your local machine, please update the con
  - port: port on which the IB Gateway or TWS application (they should be on the same network) is listening.
 ### Updating the kill_restart_IBGateway.sh
 This script kills and restart the process responsible for running IB Gateway or TWS application.
-Please make shure that both `kill` and `nohup` commands have got respective paths/filenames specific to your system.  
+Please make sure that both `kill` and `nohup` commands have got respective paths/filenames specific to your system.  
 In the default configuration:  
  `kill $(ps aux | grep displaybannerandlaunch.sh | grep -v grep | awk '{print $2}')`  
 `grep displaybannerandlaunch.sh` identifies a process responsible for running IB Gateway.  
