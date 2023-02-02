@@ -1,5 +1,4 @@
-name: test-env
-channels: 
+channels:
   - conda-forge
 dependencies:
   - python>=3.8

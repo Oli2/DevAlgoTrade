@@ -370,7 +370,7 @@ if __name__ == '__main__':
             ib = IB()
             if not ib.isConnected():
                 ib.RequestTimeout=20 #final value TBD
-                ib.connect(host='127.0.0.1', port=port, clientId=114) # TWS app or IB Gateway
+                ib.connect(host='127.0.0.1', port=port, clientId=115) # TWS app or IB Gateway
                 lsbt.account = ib.managedAccounts()[0] #stores the account number
                 break
             else:
